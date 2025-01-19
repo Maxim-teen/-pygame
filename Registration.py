@@ -162,6 +162,7 @@ class MainApp:
 
     def open_menu_dialog(self, username):
         QMessageBox.information(None, "Welcome", f"Welcome, {username}!")
+        print('abc')
 
 
 if __name__ == "__main__":
